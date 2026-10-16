@@ -5,7 +5,7 @@ cd /workspaces/Lab-3/my-app
 mvn clean compile
 
 # To run tests
-mvm test
+mvn test
 
 # To run main program
 mvn exec:java -Dexec.mainClass="p.PizzaStore"
